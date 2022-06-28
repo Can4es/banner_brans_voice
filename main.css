@@ -1,0 +1,169 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    height: 768px;
+    margin: 0 auto;
+    padding: 0;
+}
+.background {
+    height: 768px;
+    width: auto;
+    color: white;
+    background-image: url(/images/bg.png);
+}
+.bacgkround-main {
+    height: 768px;
+    filter: none;
+    background-image: url(/images/list.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 500px 100%;
+    
+}
+.info {
+    height: 768px;
+    position: relative;
+    width: 100%;
+}
+.side-description {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -170px;
+    display: inline-block;
+    text-align: center;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+.side-description span {
+    color: #808080;
+}
+
+.info-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-bottom__start {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-self: flex-end;
+}
+.info-bottom__end svg {
+    height: 50px;
+    width: 50px;
+
+    justify-self: flex-end;
+}
+
+.info-bottom__end a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.info-bottom__end {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100%;
+    color: #000;
+    position: relative;
+}
+
+.content h1 {
+    padding-top: 100px;
+    text-align: center;
+    margin-block-start: 0px;
+}
+
+.content h1 .header-1 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: block;
+}
+.content h1 .header-2 {
+    color: #000;
+    font-size: 8rem;
+    text-transform: uppercase;
+    display: block;
+}
+.content .music-festival {
+    color: red;
+    text-align: center;
+    margin-top: -7.5rem;
+    font-size: 3rem;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+.content .online-festival {
+    text-align: center;
+    color: #000;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+}
+
+.content .festival-description {
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.start-date {
+    max-width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.additional-info {
+    position: absolute;
+    bottom: 0;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+    text-indent: 25px;
+}
+
+.additional-info .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.additional-info .social span {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.additional-info p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}

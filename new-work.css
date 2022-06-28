@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 768px;
+    margin: 0 auto;
+    padding: 0;
+}
+ 
+ .trava{
+    box-sizing: border-box;
+    background-image: url(/images/wall.png);
+ }   
+    
+.background {
+    box-sizing: border-box;
+    margin:15px 20px;
+    position:relative;
+    padding: 10px;
+    height: 768px;
+    width: auto;
+    background-image: url(/images/woman1.png);
+    background-repeat: no-repeat;
+    background-position: 150px 0px;
+    background-size: 600px 100%;
+  }
+
+.marketing{
+    box-sizing: border-box;
+    border:none;
+    color:black;
+    display: flex;
+    font-size: large;
+   justify-content: space-between;
+   
+}
+.social .fa-brands.fa-facebook {
+    font-size: 2rem;
+}
+.social .fa-brands.fa-instagram{
+    font-size: 2rem;
+}
+
+.marketing .fa-mobile-screen-button {
+    font-size: 2rem;
+}
+
+.text {
+    box-sizing: border-box;
+    margin-block-start: 600px;
+    position:absolute;
+    text-transform:uppercase;
+    display: flex;
+    border:none;
+    color:black;
+  }
+
+.social{
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align:end;
+    display: flex;
+ }
+
+.menu{
+    box-sizing: border-box;
+    color:brown;
+    margin-left: 0px;
+}
+
+.menu p.your{
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 15px;
+    font-size: 50px;
+    text-align: right;
+   
+   
+}
+.menu h1.voice{
+    box-sizing: border-box;
+    text-align:right;
+    font-size: 100px;
+    margin: 10px;
+    padding-right: 10px;
+}
+.opisanie{
+    box-sizing: border-box;
+    text-align:end;
+    margin: 10px;
+    padding-top: 100px;
+    Border: none;
+    color:black;
+    font-size: small;
+}
+.cait{
+    box-sizing: border-box;
+    text-align: end;
+    padding-top: 100px;
+    color:black;
+    margin-left:0px;
+    font-size: small;
+}
+
+  
+  
